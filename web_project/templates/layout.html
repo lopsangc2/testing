@@ -14,30 +14,31 @@
 </head>
 
 <body>
-    <a href="#" onclick="toogleModal();">Click me</a>
-    <section class="infomodal">
-        <div id="modal3" class="modal">
-            <div class="modal-content">
-                <h4 id="info-modal-heading">Link Disabled</h4>
-                <p id="info-model-content">Sorry this link is disabled as of now</p>
+    <section class="fnavbar">
+        <nav class="nav-fixed">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Sherpa King</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#" onclick="toggleModal();">Home</a></li>
+                    <li><a href="#" onclick="toggleModal();">About Us</a></li>
+                    <li><a href="#" onclick="toggleModal();">Burger</a></li>
+                    <li><a href="#" onclick="toggleModal();">Combo Packs</a></li>
+                    <li><a href="#" onclick="toggleModal();">Contact</a></li>
+                </ul>
             </div>
-            <div class="modal-footer">
-                <a href="#" class="modal-close wave-effect btn-flat">Close</a>
-            </div>
-        </div>
-    </section>
-<div class="top-header row">
-    <div class="brand-logo col s6">TREK WITH SHERPA</div>
-    <div class="col s6">
-        <p>+977 9866 418 005 WHATSAPP</p>
-        <p>ME@trekwithsherpa.com</p>
-    </div>
-</div>
-<div class="bottom-header">
-    
-</div>
-</body>
 
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#" onclick="toggleModal();">Home</a></li>
+            <li><a href="#" onclick="toggleModal();">About Us</a></li>
+            <li><a href="#" onclick="toggleModal();">Burger</a></li>
+            <li><a href="#" onclick="toggleModal();">Combo Packs</a></li>
+            <li><a href="#" onclick="toggleModal();">Contact</a></li>
+        </ul>
+    </section>
+</body>
 <!--jquery-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
     integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="

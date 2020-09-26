@@ -1,11 +1,12 @@
-$(document).ready(function()){
-    $('.modal').modal();
-    
-    $('.sidenav').sidenav();
-}
+$(document).ready(function () {
+  $(".modal").modal();
+  $(".parallax").parallax();
+  $(".sidenav").sidenav();
 
-function ToggleModal() {
-    var instance = M.Modal.getInstance($('modal3'))
-    instance.open()
-    
+  $(".slider").slider({ full_width: true });
+});
+
+function toggleModal() {
+  var instance = M.Modal.getInstance($("#modal3"));
+  instance.open();
 }
