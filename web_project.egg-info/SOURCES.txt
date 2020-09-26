@@ -1,0 +1,8 @@
+README.rst
+setup.py
+web_project/__init__.py
+web_project.egg-info/PKG-INFO
+web_project.egg-info/SOURCES.txt
+web_project.egg-info/dependency_links.txt
+web_project.egg-info/requires.txt
+web_project.egg-info/top_level.txt
